@@ -73,6 +73,10 @@
           a {
             color: @mygray;
             text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -85,6 +89,20 @@
       img {
         max-width: 100%;
         width: 276px;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray;
+
+        &:hover {
+          -webkit-filter: grayscale(0%);
+          -moz-filter: grayscale(0%);
+          -ms-filter: grayscale(0%);
+          -o-filter: grayscale(0%);
+          filter: none;
+        }
       }
     }
 
@@ -112,6 +130,10 @@
         font-size: 24px;
         padding: 2px 23px;
         margin-top: 77px;
+
+        &:focus {
+          outline: none;
+        }
       }
     }
   }
@@ -145,6 +167,10 @@
           a {
             color: #000000;
             padding: 20px 0px;
+
+            &:hover {
+              background: #e6e6e6;
+            }
           }
         }
       }
