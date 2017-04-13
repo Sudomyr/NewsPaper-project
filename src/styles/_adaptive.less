@@ -32,11 +32,31 @@
   .main-tv-video-box > iframe {
     width: 100%;
   }
-  .img-label {
-    top: 78px !important;
-  }
   .small-tv-video-box > iframe {
     width: 134px;
+  }
+  .city-main-heading-box {
+    width: auto !important;
+  }
+  .city-small-box {
+    margin-right: 0px !important;
+    width: 346px !important;
+  }
+  .main-society-heading-box {
+    width: auto !important;
+  }
+  .main-society-box {
+    margin-bottom: 20px;
+  }
+  .small-society-content {
+    margin-left: 0px !important;
+    width: auto !important;
+  }
+  .small-society-inform {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin-left: 10px;
   }
 }
 @media (max-width: 991px) {
@@ -72,11 +92,11 @@
   .sidebar-container {
     border-right: none !important;
   }
-  .img-label {
-    top: 21px !important;
-  }
   .small-tv-video-box > iframe {
     width: 144px;
+  }
+  .small-society-content {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 767px) {
@@ -121,15 +141,107 @@
   .tv-advertising-image {
     margin-bottom: 20px;
   }
+  .city-main-image-box {
+    float: none !important;
+
+    img {
+      width: 100%;
+    }
+  }
+  .city-main-inform-box {
+    margin-left: 0px !important;
+
+    .city-main-heading {
+      margin-left: 0px !important;
+    }
+    .city-main-new-text {
+      margin-left: 0px !important;
+    }
+    .city-main-author-date {
+      margin-left: 0px !important;
+    }
+  }
+  .city-main-inform-box {
+    margin-top: 10px;
+  }
 }
-@media (max-width: 534px) {
-  .img-label {
-    top: 40px !important;
+@media (max-width: 725px) {
+  .city-small-box {
+    width: auto !important;
+    margin-bottom: 13px;
+  }
+}
+@media (max-width: 691px) {
+  .small-society-inform {
+    width: 320px !important;
+  }
+  .economy-container {
+    margin-top: 35px !important;
+  }
+}
+@media (max-width: 570px) {
+  .city-menu-list > li {
+    margin-right: 30px !important;
+  }
+}
+@media (max-width: 530px) {
+  .small-society-inform {
+    width: 272px !important;
+  }
+}
+@media (max-width: 508px) {
+  .city-menu-list > li {
+    margin-right: 20px !important;
+
+    a {
+      font-size: 22px !important;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .small-society-inform {
+    width: 205px !important;
   }
 }
 @media (max-width: 473px) {
   .main-tv-author-date {
     margin-top: 0px;
+  }
+  .main-society-image-box {
+    float: none !important;
+    margin-bottom: 15px;
+
+    img {
+      width: 100%;
+    }
+
+    &:after {
+      right: 75px !important;
+    }
+  }
+  .main-society-inform-box {
+    margin-left: 0px !important;
+  }
+  .main-society-heading {
+    margin-left: 0px !important;
+  }
+  .main-society-author-date {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 446px) {
+  .city-menu-list > li {
+    margin-right: 15px !important;
+
+    a {
+      font-size: 20px !important;
+    }
+  }
+}
+@media (max-width: 415px) {
+  .small-society-inform {
+    width: 180px !important;
   }
 }
 @media (max-width: 400px) {
@@ -151,6 +263,37 @@
   .first-menu-list {
     margin-top: 15px !important;
   }
+  .city-menu-list > li {
+    margin-right: 10px !important;
+
+    a {
+      font-size: 18px !important;
+    }
+  }
+  .small-city-image-box {
+    float: none !important;
+
+    img {
+      width: 100%;
+    }
+  }
+  .small-society-box {
+    display: block !important;
+  }
+  .small-society-content {
+    display: block !important;
+  }
+  .small-society-image-box {
+    display: block !important;
+
+    img {
+      width: 100%;
+    }
+  }
+  .small-society-inform {
+    margin-left: 0px !important;
+    width: auto !important;
+  }
 }
 @media (max-width: 380px) {
   .first-menu-list > li {
@@ -158,6 +301,11 @@
   }
   .first-header-search-date > a > {
     left: 52px !important;
+  }
+}
+@media (max-width: 353px) {
+  .city-menu-list > li > a {
+    font-size: 15px !important;
   }
 }
 @media (max-width: 350px) {
@@ -180,11 +328,6 @@
     left: 30px !important;
   }
 }
-@media (max-width: 315px) {
-  .img-label {
-    top: 58px !important;
-  }
-}
 @media (max-width: 310px) {
   .first-header-search-date > a > {
     left: 22px !important;
@@ -198,6 +341,9 @@
   .project-btn-box {
     padding-left: 0px;
   }
+  .city-menu-list > li > a {
+    font-size: 14px !important;
+  }
 }
 @media (max-width: 300px) {
   .first-menu-list > li {
@@ -208,6 +354,9 @@
 @media (max-width: 290px) {
   .first-header-search-date > a > {
     left: 15px !important;
+  }
+  .city-menu-list > li > a {
+    font-size: 12px !important;
   }
 }
 @media (max-width: 280px) {
