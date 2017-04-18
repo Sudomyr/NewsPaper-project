@@ -1,0 +1,368 @@
+.culture-container {
+  margin-top: 15px;
+
+  .culture-header-box {
+    margin-bottom: 20px;
+
+    h3 {
+      font-family: FiraSansB;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      margin-top: 0px;
+      color: @myblack;
+    }
+
+    &:after {
+      content: " ";
+      width: 70px;
+      height: 2px;
+      background-color: @myblack;
+      display: block;
+    }
+  }
+
+  .main-culture-box {
+    display: inline-block;
+
+    .main-culture-content1 {
+      width: 262px;
+      display: inline-block;
+
+      .main-culture-link {
+        text-decoration: none;
+        display: block;
+
+        .main-culture-image-box {
+          position: relative;
+
+          img {
+            position: relative;
+            z-index: 2;
+            margin-left: 3px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+          }
+
+          &:after {
+            content: " ";
+            position: absolute;
+            background: #333333;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            right: 47px;
+            bottom: 0px;
+          }
+        }
+
+        .main-culture-heading {
+          margin-top: 10px;
+          position: relative;
+          padding-top: 6px;
+          padding-left: 11px;
+
+          .main-culture-heading-box {
+            position: relative;
+            background: #ffffff;
+            z-index: 3;
+
+            .main-culture-heading-text {
+              display: block;
+              font-family: PTSerif;
+              font-size: 15px;
+              padding-left: 4px;
+              text-transform: uppercase;
+              z-index: 4;
+              position: relative;
+              line-height: 1.25;
+              color: #020202;
+            }
+          }
+
+          &:after {
+            content: " ";
+            position: absolute;
+            z-index: 1;
+            background: #333333;
+            top: 0px;
+            left: 0px;
+            width: 60px;
+            height: 60px;
+          }
+
+          &:before {
+            content: " ";
+            position: absolute;
+            z-index: 2;
+            background: #ffffff;
+            top: 2px;
+            left: 2px;
+            width: 56px;
+            height: 56px;
+          }
+        }
+
+        .main-culture-author-date {
+          padding-left: 15px;
+
+          .main-culture-date {
+            font-family: RobotoR;
+            font-size: 9px;
+            color: #838383;
+          }
+        }
+
+        &:hover {
+
+          .main-culture-image-box:after {
+            background: linear-gradient(to right, #98049d, #4112ae);
+          }
+          .main-culture-image-box > img {
+            -webkit-filter: grayscale(0%);
+            -moz-filter: grayscale(0%);
+            -ms-filter: grayscale(0%);
+            -o-filter: grayscale(0%);
+            filter: none;
+          }
+          .main-culture-heading:after {
+            background: linear-gradient(to top, #b10198, #3914b0);
+          }
+          .main-culture-heading-text {
+            background: linear-gradient(45deg, #3714b0, #b40097);
+            -webkit-background-clip: text !important;
+            color: transparent !important;
+          }
+        }
+      }
+    }
+
+
+    .main-culture-content2 {
+      width: 165px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 26px;
+
+      .main-small-culture-box-link {
+        text-decoration: none;
+        display: block;
+
+        .main-small-culture-image-box {
+          position: relative;
+
+          img {
+            position: relative;
+            z-index: 2;
+            margin-left: 3px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+          }
+
+          &:after {
+            content: " ";
+            position: absolute;
+            background: #333333;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            right: 28px;
+            bottom: 0px;
+          }
+        }
+
+        .main-small-culture-header-box {
+          font-family: PTSerif;
+          font-size: 15px;
+          color: #020202;
+          margin-top: 5px;
+          line-height: 1.2;
+        }
+
+        .main-small-culture-author-date {
+
+          .main-small-date {
+            font-family: RobotoR;
+            font-size: 9px;
+            color: #838383;
+          }
+        }
+
+        &:hover {
+
+          .main-small-culture-image-box:after {
+            background: linear-gradient(to right, #98049d, #4112ae);
+          }
+          .main-small-culture-image-box > img {
+            -webkit-filter: grayscale(0%);
+            -moz-filter: grayscale(0%);
+            -ms-filter: grayscale(0%);
+            -o-filter: grayscale(0%);
+            filter: none;
+          }
+        }
+      }
+    }
+  }
+
+  .small-culture-box {
+    display: inline-block;
+    vertical-align: top;
+
+    .small-culture-content {
+      width: 165px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 26px;
+
+      .main-small-culture-box-link {
+        text-decoration: none;
+        display: block;
+
+        .main-small-culture-image-box {
+          position: relative;
+
+          img {
+            position: relative;
+            z-index: 2;
+            margin-left: 3px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+          }
+
+          &:after {
+            content: " ";
+            position: absolute;
+            background: #333333;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            right: 28px;
+            bottom: 0px;
+          }
+        }
+
+        .main-small-culture-header-box {
+          font-family: PTSerif;
+          font-size: 15px;
+          color: #020202;
+          margin-top: 5px;
+          line-height: 1.2;
+        }
+
+        .main-small-culture-author-date {
+
+          .main-small-date {
+            font-family: RobotoR;
+            font-size: 9px;
+            color: #838383;
+          }
+        }
+
+        &:hover {
+
+          .main-small-culture-image-box:after {
+            background: linear-gradient(to right, #98049d, #4112ae);
+          }
+          .main-small-culture-image-box > img {
+            -webkit-filter: grayscale(0%);
+            -moz-filter: grayscale(0%);
+            -ms-filter: grayscale(0%);
+            -o-filter: grayscale(0%);
+            filter: none;
+          }
+        }
+      }
+    }
+
+    .small-culture-content {
+      width: 165px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 26px;
+
+      .main-small-culture-box-link {
+        text-decoration: none;
+        display: block;
+
+        .main-small-culture-image-box {
+          position: relative;
+
+          img {
+            position: relative;
+            z-index: 2;
+            margin-left: 3px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+          }
+
+          &:after {
+            content: " ";
+            position: absolute;
+            background: #333333;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            right: 28px;
+            bottom: 0px;
+          }
+        }
+
+        .main-small-culture-header-box {
+          font-family: PTSerif;
+          font-size: 15px;
+          color: #020202;
+          margin-top: 5px;
+          line-height: 1.2;
+        }
+
+        .main-small-culture-author-date {
+
+          .main-small-date {
+            font-family: RobotoR;
+            font-size: 9px;
+            color: #838383;
+          }
+        }
+
+        &:hover {
+
+          .main-small-culture-image-box:after {
+            background: linear-gradient(to right, #98049d, #4112ae);
+          }
+          .main-small-culture-image-box > img {
+            -webkit-filter: grayscale(0%);
+            -moz-filter: grayscale(0%);
+            -ms-filter: grayscale(0%);
+            -o-filter: grayscale(0%);
+            filter: none;
+          }
+        }
+      }
+    }
+  }
+}

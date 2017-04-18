@@ -18,8 +18,9 @@
     "gulp-uglify": "^2.0.0"
   },
   "dependencies": {
-    "jquery": "^3.1.1",
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.1",
+    "tabslet": "^1.7.3"
   }
 }

@@ -47,7 +47,8 @@ gulp.task("vendor-css", function() {
 gulp.task("vendor-js", function() {
 	return gulp.src([
 		"node_modules/jquery/dist/jquery.js",
-		"node_modules/bootstrap/dist/js/bootstrap.js"
+		"node_modules/bootstrap/dist/js/bootstrap.js",
+		"node_modules/tabslet/jquery.tabslet.js"
 		])
 		.pipe(concat("vendor.min.js"))
 		.pipe(uglify())

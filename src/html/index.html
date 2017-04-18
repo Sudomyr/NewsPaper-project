@@ -12,7 +12,7 @@
 <div class="container first-header">
     <div class="first-header-search-date">
         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-        <div class="first-header-date">12 жовтня, понеділок, 2016</div>
+        <input class="search-date-input" type="search" placeholder="12 жовтня, понеділок, 2016">
     </div>
     <div class="first-header-menu">
         <ul class="first-header-menu-list">
@@ -216,69 +216,191 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 city-news-container">
-                    <div class="city-menu-box">
-                        <ul class="city-menu-list">
-                            <li><a href="javascript:void()">Львів</a></li>
-                            <li><a href="javascript:void()">Тернопіль</a></li>
-                            <li><a href="javascript:void()">Івано-Франківськ</a></li>
+                    <div class="tabs tabs_default city-menu-box">
+                        <ul class="horizontal city-menu-list">
+                            <li class="active"><a href="#tab-1">Львів</a></li>
+                            <li><a href="#tab-2">Тернопіль</a></li>
+                            <li><a href="#tab-3">Івано-Франківськ</a></li>
                         </ul>
-                    </div>
-                    <div class="city-main-new-box">
-                        <a href="javascript:void()" class="city-main-box-link">
-                            <div class="city-main-image-box">
-                                <img src="images/6.png" alt="">
-                            </div>
-                            <div class="city-main-inform-box">
-                                <div class="city-main-heading">
-                                    <div class="city-main-heading-box">
+                        <div id="tab-1">
+                            <div class="city-main-new-box">
+                                <a href="javascript:void()" class="city-main-box-link">
+                                    <div class="city-main-image-box">
+                                        <img src="images/6.png" alt="">
+                                    </div>
+                                    <div class="city-main-inform-box">
+                                        <div class="city-main-heading">
+                                            <div class="city-main-heading-box">
                                         <span class="city-main-heading-text">
                                             Ярослав Грицак: Путін помилився, лінія розриву України проходить не по Збручу
                                         </span>
+                                            </div>
+                                        </div>
+                                        <div class="city-main-new-text">
+                                            На вул. Тернопільській, 42 в Сихівському районі Львова розпочали самочинне
+                                            будівництво багатоповерхівки. За словами голови Сихівської райадміністрації Ірини
+                                            Маруняк, жодних необхідних документів – містобудівних умов та обмежень, документів
+                                            на землю та декларації про
+                                        </div>
+                                        <div class="city-main-author-date">
+                                            <span class="city-main-date">25 жовтня, 14:30</span>
+                                        </div>
                                     </div>
+                                </a>
+                            </div>
+                            <div class="city-small-container">
+                                <div class="city-small-box">
+                                    <a href="javascript:void()" class="city-small-box-link">
+                                        <div class="small-city-image-box">
+                                            <img src="images/7.png" alt="">
+                                        </div>
+                                        <div class="small-city-inform-box">
+                                            <div class="small-city-header-box">
+                                                Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                                            </div>
+                                            <div class="small-city-author-date">
+                                                <span class="small-date">сьогодні, 14:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="city-main-new-text">
-                                    На вул. Тернопільській, 42 в Сихівському районі Львова розпочали самочинне
-                                    будівництво багатоповерхівки. За словами голови Сихівської райадміністрації Ірини
-                                    Маруняк, жодних необхідних документів – містобудівних умов та обмежень, документів
-                                    на землю та декларації про
-                                </div>
-                                <div class="city-main-author-date">
-                                    <span class="city-main-date">25 жовтня, 14:30</span>
+                                <div class="city-small-box">
+                                    <a href="javascript:void()" class="city-small-box-link">
+                                        <div class="small-city-image-box">
+                                            <img src="images/7.png" alt="">
+                                        </div>
+                                        <div class="small-city-inform-box">
+                                            <div class="small-city-header-box">
+                                                Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                                            </div>
+                                            <div class="small-city-author-date">
+                                                <span class="small-author">Олексій Станько</span>
+                                                <span class="small-date">сьогодні, 14:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="city-small-container">
-                        <div class="city-small-box">
-                            <a href="javascript:void()" class="city-small-box-link">
-                                <div class="small-city-image-box">
-                                    <img src="images/7.png" alt="">
-                                </div>
-                                <div class="small-city-inform-box">
-                                    <div class="small-city-header-box">
-                                        Ярослав Грицак: Путін помилився, лінія розриву України проходить
-                                    </div>
-                                    <div class="small-city-author-date">
-                                        <span class="small-date">сьогодні, 14:00</span>
-                                    </div>
-                                </div>
-                            </a>
                         </div>
-                        <div class="city-small-box">
-                            <a href="javascript:void()" class="city-small-box-link">
-                                <div class="small-city-image-box">
-                                    <img src="images/7.png" alt="">
-                                </div>
-                                <div class="small-city-inform-box">
-                                    <div class="small-city-header-box">
-                                        Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                        <div id="tab-2">
+                            <div class="city-main-new-box">
+                                <a href="javascript:void()" class="city-main-box-link">
+                                    <div class="city-main-image-box">
+                                        <img src="images/6.png" alt="">
                                     </div>
-                                    <div class="small-city-author-date">
-                                        <span class="small-author">Олексій Станько</span>
-                                        <span class="small-date">сьогодні, 14:00</span>
+                                    <div class="city-main-inform-box">
+                                        <div class="city-main-heading">
+                                            <div class="city-main-heading-box">
+                                        <span class="city-main-heading-text">
+                                            Ярослав Грицак: Путін помилився, лінія розриву України проходить не по Збручу
+                                        </span>
+                                            </div>
+                                        </div>
+                                        <div class="city-main-new-text">
+                                            На вул. Тернопільській, 42 в Сихівському районі Львова розпочали самочинне
+                                            будівництво багатоповерхівки. За словами голови Сихівської райадміністрації Ірини
+                                            Маруняк, жодних необхідних документів – містобудівних умов та обмежень, документів
+                                            на землю та декларації про
+                                        </div>
+                                        <div class="city-main-author-date">
+                                            <span class="city-main-date">25 жовтня, 14:30</span>
+                                        </div>
                                     </div>
+                                </a>
+                            </div>
+                            <div class="city-small-container">
+                                <div class="city-small-box">
+                                    <a href="javascript:void()" class="city-small-box-link">
+                                        <div class="small-city-image-box">
+                                            <img src="images/7.png" alt="">
+                                        </div>
+                                        <div class="small-city-inform-box">
+                                            <div class="small-city-header-box">
+                                                Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                                            </div>
+                                            <div class="small-city-author-date">
+                                                <span class="small-date">сьогодні, 14:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
+                                <div class="city-small-box">
+                                    <a href="javascript:void()" class="city-small-box-link">
+                                        <div class="small-city-image-box">
+                                            <img src="images/7.png" alt="">
+                                        </div>
+                                        <div class="small-city-inform-box">
+                                            <div class="small-city-header-box">
+                                                Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                                            </div>
+                                            <div class="small-city-author-date">
+                                                <span class="small-author">Олексій Станько</span>
+                                                <span class="small-date">сьогодні, 14:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3">
+                            <div class="city-main-new-box">
+                                <a href="javascript:void()" class="city-main-box-link">
+                                    <div class="city-main-image-box">
+                                        <img src="images/6.png" alt="">
+                                    </div>
+                                    <div class="city-main-inform-box">
+                                        <div class="city-main-heading">
+                                            <div class="city-main-heading-box">
+                                        <span class="city-main-heading-text">
+                                            Ярослав Грицак: Путін помилився, лінія розриву України проходить не по Збручу
+                                        </span>
+                                            </div>
+                                        </div>
+                                        <div class="city-main-new-text">
+                                            На вул. Тернопільській, 42 в Сихівському районі Львова розпочали самочинне
+                                            будівництво багатоповерхівки. За словами голови Сихівської райадміністрації Ірини
+                                            Маруняк, жодних необхідних документів – містобудівних умов та обмежень, документів
+                                            на землю та декларації про
+                                        </div>
+                                        <div class="city-main-author-date">
+                                            <span class="city-main-date">25 жовтня, 14:30</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="city-small-container">
+                                <div class="city-small-box">
+                                    <a href="javascript:void()" class="city-small-box-link">
+                                        <div class="small-city-image-box">
+                                            <img src="images/7.png" alt="">
+                                        </div>
+                                        <div class="small-city-inform-box">
+                                            <div class="small-city-header-box">
+                                                Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                                            </div>
+                                            <div class="small-city-author-date">
+                                                <span class="small-date">сьогодні, 14:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="city-small-box">
+                                    <a href="javascript:void()" class="city-small-box-link">
+                                        <div class="small-city-image-box">
+                                            <img src="images/7.png" alt="">
+                                        </div>
+                                        <div class="small-city-inform-box">
+                                            <div class="small-city-header-box">
+                                                Ярослав Грицак: Путін помилився, лінія розриву України проходить
+                                            </div>
+                                            <div class="small-city-author-date">
+                                                <span class="small-author">Олексій Станько</span>
+                                                <span class="small-date">сьогодні, 14:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tv-advertising-box">
@@ -412,6 +534,231 @@
                         <div class="advertising-image">
                             <a href="javascript:void()">
                                 <img src="images/10.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 culture-container">
+                    <div class="culture-header-box">
+                        <h3>Культура та туризм</h3>
+                    </div>
+                    <div class="main-culture-box">
+                        <div class="main-culture-content1">
+                            <a href="javascript:void()" class="main-culture-link">
+                                <div class="main-culture-image-box">
+                                    <img src="images/11.png" alt="">
+                                </div>
+                                <div class="main-culture-inform">
+                                    <div class="main-culture-heading">
+                                        <div class="main-culture-heading-box">
+                                        <span class="main-culture-heading-text">
+                                            Ярослав Грицак: Путін помилився, лінія розриву України проходить не по Збручу
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div class="main-culture-author-date">
+                                        <span class="main-culture-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main-culture-content2">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="small-culture-box">
+                        <div class="small-culture-content">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="small-culture-content">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 culture-container">
+                    <div class="culture-header-box">
+                        <h3>Світ</h3>
+                    </div>
+                    <div class="main-culture-box">
+                        <div class="main-culture-content1">
+                            <a href="javascript:void()" class="main-culture-link">
+                                <div class="main-culture-image-box">
+                                    <img src="images/11.png" alt="">
+                                </div>
+                                <div class="main-culture-inform">
+                                    <div class="main-culture-heading">
+                                        <div class="main-culture-heading-box">
+                                        <span class="main-culture-heading-text">
+                                            Ярослав Грицак: Путін помилився, лінія розриву України проходить не по Збручу
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div class="main-culture-author-date">
+                                        <span class="main-culture-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main-culture-content2">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="small-culture-box">
+                        <div class="small-culture-content">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="small-culture-content">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 culture-container">
+                    <div class="culture-header-box">
+                        <h3>Спорт</h3>
+                    </div>
+                    <div class="main-culture-box">
+                        <div class="main-culture-content1">
+                            <a href="javascript:void()" class="main-culture-link">
+                                <div class="main-culture-image-box">
+                                    <img src="images/11.png" alt="">
+                                </div>
+                                <div class="main-culture-inform">
+                                    <div class="main-culture-heading">
+                                        <div class="main-culture-heading-box">
+                                        <span class="main-culture-heading-text">
+                                            Ярослав Грицак: Путін помилився, лінія розриву України проходить не по Збручу
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div class="main-culture-author-date">
+                                        <span class="main-culture-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main-culture-content2">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="small-culture-box">
+                        <div class="small-culture-content">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="small-culture-content">
+                            <a class="main-small-culture-box-link" href="javascript:void()">
+                                <div class="main-small-culture-image-box">
+                                    <img src="images/4.png" alt="">
+                                </div>
+                                <div class="main-small-culture-inform">
+                                    <div class="main-small-culture-header-box">
+                                        Ярослав Грицак: Путін помилився, лінія розриву України не по збручу
+                                    </div>
+                                    <div class="main-small-culture-author-date">
+                                        <span class="main-small-date">25 жовтня, 14:30</span>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -794,28 +1141,27 @@
     </div>
 </div>
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class="container footer-container">
+    <div class="container footer">
+        <div class="footer-logo-box">
+            <a href="javascript:void()"><img src="images/12.png" alt=""></a>
+        </div>
+        <div class="footer-info">
+            При цитуванні і використанні будь-яких матеріалів в Інтернеті відкриті для пошукових систем гіперпосилання
+            не нижче першого абзацу на “Галицькі Вісті” — обов’язкові. Цитування і використання матеріалів у
+            оффлайн-медіа, Мобільних додатках, SmartTV можливе лише з письмової згоди “Галицькі Вісті”. Матеріали з
+            маркуванням «Реклама» публікуються на правах реклами. Усі права захищені. © 2016—2017, ПрАТ «Галицькі
+            Вісті”»
+        </div>
+        <div class="footer-list-box">
+            <ul class="footer-list">
+                <li><a href="">Реклама на сайті</a></li>
+                <li><a href="">Правила використання матеріалів “Галицькі Вісті”</a></li>
+                <li><a href="">Політика кофіндейціності</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 
 <script src="js/vendor.min.js"></script>
