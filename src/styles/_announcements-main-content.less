@@ -47,15 +47,18 @@
       font-family: RobotoR;
     }
     .theme-title {
-      font-size: 16px;
-      font-family: RobotoR;
-      line-height: 1.3;
 
       .theme-title-heading {
         font-size: 18px;
         font-family: RobotoB;
         line-height: 1.2;
         margin-bottom: 5px;
+      }
+
+      .theme-title-text {
+        font-size: 16px;
+        font-family: RobotoR;
+        line-height: 1.3;
       }
     }
     .place-title {
@@ -67,9 +70,18 @@
     &:hover {
 
       .theme-title {
-        background: linear-gradient(45deg,#3714b0,#b40097);
-        -webkit-background-clip: text!important;
-        color: transparent!important;
+
+        .theme-title-heading {
+          background: linear-gradient(45deg,#3714b0,#b40097);
+          -webkit-background-clip: text !important;
+          color: transparent !important;
+        }
+
+        .theme-title-text {
+          background: linear-gradient(45deg,#3714b0,#b40097);
+          -webkit-background-clip: text !important;
+          color: transparent !important;
+        }
       }
     }
   }
