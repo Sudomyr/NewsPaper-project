@@ -27,13 +27,15 @@
     float: right;
     position: relative;
 
-    a {
+    button {
       display: inline-block;
       font-size: 20px;
       position: absolute;
       top: -4px;
       left: -37px;
       color: #333333;
+      border: none;
+      background: transparent;
     }
 
     .search-date-input {
@@ -41,10 +43,12 @@
       font-size: 12px;
       font-family: RobotoR;
       text-transform: uppercase;
-      width: 180px;
+      //width: 180px;
+      width: 152px;
       padding: 0px 0px 0px 5px;
       color: @mygray;
       height: 22px;
+      //text-align: right;
 
       &:focus {
         outline-color: black;
@@ -106,6 +110,7 @@
         -o-filter: grayscale(100%);
         filter: grayscale(100%);
         filter: gray;
+        transition: 0.3s;
 
         &:hover {
           -webkit-filter: grayscale(0%);

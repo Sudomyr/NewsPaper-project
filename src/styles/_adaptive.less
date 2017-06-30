@@ -35,12 +35,19 @@
   .small-tv-video-box > iframe {
     width: 134px;
   }
+  .small-tv-inform-box {
+    margin-left: 152px !important;
+  }
   .city-main-heading-box {
     width: auto !important;
   }
   .city-small-box {
     margin-right: 0px !important;
     width: 346px !important;
+    vertical-align: top;
+  }
+  .small-city-author-date > .small-author {
+    margin-right: 25px !important;
   }
   .main-society-heading-box {
     width: auto !important;
@@ -108,6 +115,9 @@
   .article-date {
     padding-right: 25px !important;
   }
+  .article-image-box > img {
+    width: 100%;
+  }
   .project-image-box > img {
     width: 100%;
   }
@@ -140,6 +150,8 @@
     .weekday-list > li {
       margin-left: 2px !important;
       margin-right: 2px !important;
+      width: 20px !important;
+      height: 20px !important;
 
       a {
         width: 20px !important;
@@ -147,10 +159,11 @@
         line-height: 1.5 !important;
       }
     }
-
     .calendar-list > li {
-      margin-left: 2px !important;
-      margin-right: 2px !important;
+      margin-left: 2.5px !important;
+      margin-right: 2.5px !important;
+      width: 20px !important;
+      height: 20px !important;
 
       a {
         width: 20px !important;
@@ -158,10 +171,12 @@
         line-height: 1.5 !important;
       }
     }
-
     .second-week-box {
       padding-left: 6px !important;
       padding-right: 9px !important;
+    }
+    .first-week-box {
+      padding-right: 2px;
     }
   }
 }
@@ -245,11 +260,16 @@
   .channel-advertising-box {
     margin-bottom: 30px !important;
   }
+  .announcements-sidebar-container {
+    border-left: none !important;
+  }
   .announcements-calendar {
 
     .weekday-list > li {
       margin-left: 3px !important;
       margin-right: 3px !important;
+      width: 24px !important;
+      height: 24px !important;
 
       a {
         width: 24px !important;
@@ -257,10 +277,11 @@
         line-height: 1.6 !important;
       }
     }
-
     .calendar-list > li {
       margin-left: 3px !important;
       margin-right: 3px !important;
+      width: 24px !important;
+      height: 24px !important;
 
       a {
         width: 24px !important;
@@ -268,10 +289,12 @@
         line-height: 1.6 !important;
       }
     }
-
     .second-week-box {
       padding-left: 3px !important;
       padding-right: 7px !important;
+    }
+    .first-week-box {
+      padding-right: 0px !important;
     }
   }
 }
@@ -382,26 +405,25 @@
   .main-culture-content2 {
     margin-left: 0px !important;
     margin-bottom: 10px;
-
-    .main-small-culture-inform {
-      width: 320px !important;
-    }
   }
   .main-small-culture-inform {
-    width: 320px !important;
+    width: 490px !important;
   }
   .small-culture-content {
     margin-bottom: 10px;
   }
 }
 @media (max-width: 703px) {
+  .main-small-culture-inform {
+    width: 470px !important;
+  }
   .footer-logo-box {
     display: block !important;
     text-align: center;
   }
   .footer-info {
-    margin-left: 0px !important;
-    margin-right: 42px !important;
+    margin-left: 5px !important;
+    margin-right: 10px !important;
     width: auto !important;
     margin-top: 0px !important;
   }
@@ -424,7 +446,7 @@
 }
 @media (max-width: 691px) {
   .small-society-inform {
-    width: 320px !important;
+    width: 470px !important;
   }
   .economy-container {
     margin-top: 35px !important;
@@ -436,9 +458,23 @@
     width: 350px !important;
   }
 }
+@media (max-width: 680px) {
+  .main-small-culture-inform {
+    width: 440px !important;
+  }
+  .small-society-inform {
+    width: 440px !important;
+  }
+}
 @media (max-width: 650px) {
   .new-img-text {
     width: 330px !important;
+  }
+  .main-small-culture-inform {
+    width: 415px !important;
+  }
+  .small-society-inform {
+    width: 415px !important;
   }
 }
 @media (max-width: 640px) {
@@ -449,6 +485,12 @@
 @media (max-width: 625px) {
   .new-img-text {
     width: 315px !important;
+  }
+  .main-small-culture-inform {
+    width: 380px !important;
+  }
+  .small-society-inform {
+    width: 380px !important;
   }
 }
 @media (max-width: 610px) {
@@ -481,6 +523,12 @@
   .new-img-text {
     width: 295px !important;
   }
+  .main-small-culture-inform {
+    width: 350px !important;
+  }
+  .small-society-inform {
+    width: 350px !important;
+  }
 }
 @media (max-width: 570px) {
   .city-menu-list > li {
@@ -493,6 +541,12 @@
 @media (max-width: 560px) {
   .main-culture-inform {
     width: 225px !important;
+  }
+  .main-small-culture-inform {
+    width: 320px !important;
+  }
+  .small-society-inform {
+    width: 320px !important;
   }
 }
 @media (max-width: 555px) {
@@ -509,14 +563,11 @@
   .small-society-inform {
     width: 272px !important;
   }
-  .main-culture-content2 {
-
-    .main-small-culture-inform {
-      width: 272px !important;
-    }
-  }
   .main-small-culture-inform {
-    width: 272px !important;
+    width: 290px !important;
+  }
+  .small-society-inform {
+    width: 290px !important;
   }
   .main-culture-inform {
     width: 193px!important;
@@ -539,6 +590,12 @@
     margin-left: 50px !important;
     width: auto !important;
     margin-top: 10px !important;
+  }
+  .main-small-culture-inform {
+    width: 272px !important;
+  }
+  .small-society-inform {
+    width: 272px !important;
   }
 }
 @media (max-width: 495px) {
@@ -564,12 +621,6 @@
 @media (max-width: 480px) {
   .small-society-inform {
     width: 205px !important;
-  }
-  .main-culture-content2 {
-
-    .main-small-culture-inform {
-      width: 205px !important;
-    }
   }
   .main-small-culture-inform {
     width: 205px !important;
@@ -630,12 +681,6 @@
   .small-society-inform {
     width: 180px !important;
   }
-  .main-culture-content2 {
-
-    .main-small-culture-inform {
-      width: 180px !important;
-    }
-  }
   .main-small-culture-inform {
     width: 180px !important;
   }
@@ -657,7 +702,7 @@
   }
 }
 @media (max-width: 400px) {
-  .first-header-search-date > a > {
+  .first-header-search-date > button > {
     left: 65px !important;
     top: -3px !important;
   }
@@ -688,6 +733,9 @@
     img {
       width: 100%;
     }
+  }
+  .small-city-inform-box {
+    margin-left: 0px !important;
   }
   .small-society-box {
     display: block !important;
@@ -727,6 +775,7 @@
     margin-left: 0px !important;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: auto !important;
   }
   .article-view {
     display: block;
@@ -741,7 +790,7 @@
   }
 }
 @media (max-width: 380px) {
-  .first-header-search-date > a > {
+  .first-header-search-date > button {
     left: 52px !important;
   }
   .editorship-date {
@@ -768,7 +817,7 @@
   .first-menu-list > li {
     font-size: 10px !important;
   }
-  .first-header-search-date > a > {
+  .first-header-search-date > button > {
     left: 40px !important;
   }
   .small-tv-video-box {
@@ -777,6 +826,9 @@
     iframe {
       width: 100%;
     }
+  }
+  .small-tv-inform-box {
+    margin-left: 0px !important;
   }
   .category-news-list-link > .new-image > .img-label {
     right: 0px !important;
@@ -788,7 +840,7 @@
   }
 }
 @media (max-width: 330px) {
-  .first-header-search-date > a > {
+  .first-header-search-date > button > {
     left: 30px !important;
   }
   .first-main-news-small-box-link > .small-author-date > .small-date {
@@ -796,7 +848,7 @@
   }
 }
 @media (max-width: 310px) {
-  .first-header-search-date > a > {
+  .first-header-search-date > button > {
     left: 22px !important;
   }
   .social-menu-list > li {
@@ -835,7 +887,7 @@
   }
 }
 @media (max-width: 290px) {
-  .first-header-search-date > a > {
+  .first-header-search-date > button > {
     left: 15px !important;
   }
   .city-menu-list > li > a {
@@ -864,13 +916,15 @@
   }
 }
 @media (max-width: 280px) {
-  .first-header-search-date > a > {
+  .first-header-search-date > button > {
     left: 10px !important;
   }
   .announcements-inform > .time-title,
   .announcements-inform > .place-title {
     font-size: 10px !important;
   }
+  .full-calendar > .weekday-box > .weekday-list > li,
+  .full-calendar > .calendar-box > .calendar-list > li,
   .full-calendar > .weekday-box > .weekday-list > li > a,
   .full-calendar > .calendar-box > .calendar-list > li > a {
     width: 24px !important;
